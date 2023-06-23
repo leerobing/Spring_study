@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beanfind.ApplicationContextInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-23T03:49:31" hostname="leehobinui-MacBookPro.local" time="0.008">
+  <properties/>
+  <testcase name="모든 빈 출력하기" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.008"/>
+  <system-out><![CDATA[12:49:31.589 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f9edf14
+12:49:31.596 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+12:49:31.646 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+12:49:31.647 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+12:49:31.648 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+12:49:31.649 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+12:49:31.652 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+12:49:31.654 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberService'
+12:49:31.661 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberRepository'
+12:49:31.661 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderService'
+12:49:31.662 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'discountPolicy'
+name = appConfig object = hello.core.AppConfig$$EnhancerBySpringCGLIB$$e21c8272@2692b61e
+name = memberService object = hello.core.member.MemberServiceImpl@7b64240d
+name = memberRepository object = hello.core.member.MemoryMemberRepository@62fad19
+name = orderService object = hello.core.order.OrderServiceImpl@47dbb1e2
+name = discountPolicy object = hello.core.discount.RateDiscountPolicy@74cadd41
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
