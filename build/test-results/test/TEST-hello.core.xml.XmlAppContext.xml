@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.xml.XmlAppContext" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-23T06:25:12" hostname="leehobinui-MacBookPro.local" time="0.027">
+  <properties/>
+  <testcase name="xmlAppContext()" classname="hello.core.xml.XmlAppContext" time="0.027"/>
+  <system-out><![CDATA[15:25:12.491 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 4 bean definitions from class path resource [appConfig.xml]
+15:25:12.493 [Test worker] DEBUG org.springframework.context.support.GenericXmlApplicationContext - Refreshing org.springframework.context.support.GenericXmlApplicationContext@5167f57d
+15:25:12.504 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberService'
+15:25:12.508 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberRepository'
+15:25:12.511 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderService'
+15:25:12.511 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'discountPolicy'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
