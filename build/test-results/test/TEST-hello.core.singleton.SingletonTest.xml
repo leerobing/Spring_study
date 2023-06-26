@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.singleton.SingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-26T01:17:31" hostname="leehobinui-MacBookPro.local" time="0.028">
+  <properties/>
+  <testcase name="스프링이 없는 순순한 DI 컨테이너" classname="hello.core.singleton.SingletonTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
