@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beanfind.ApplicationContextInfoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-27T06:53:03" hostname="leehobinui-MacBookPro.local" time="0.004">
+  <properties/>
+  <testcase name="모든 빈 출력하기" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.001"/>
+  <testcase name="모든 빈 출력하기" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.001"/>
+  <system-out><![CDATA[name = appConfig object = hello.core.AppConfig$$EnhancerBySpringCGLIB$$20acae2c@999b951
+name = memberService object = hello.core.member.MemberServiceImpl@65cf4d6d
+name = memberRepository object = hello.core.member.MemoryMemberRepository@1b410308
+name = orderService object = hello.core.order.OrderServiceImpl@4b0bd001
+name = discountPolicy object = hello.core.discount.RateDiscountPolicy@f9cab00
+name = org.springframework.context.annotation.internalConfigurationAnnotationProcessor object = org.springframework.context.annotation.ConfigurationClassPostProcessor@26ca61bf
+name = org.springframework.context.annotation.internalAutowiredAnnotationProcessor object = org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@73a0f2b
+name = org.springframework.context.annotation.internalCommonAnnotationProcessor object = org.springframework.context.annotation.CommonAnnotationBeanPostProcessor@fa5f81c
+name = org.springframework.context.event.internalEventListenerProcessor object = org.springframework.context.event.EventListenerMethodProcessor@6a1d526c
+name = org.springframework.context.event.internalEventListenerFactory object = org.springframework.context.event.DefaultEventListenerFactory@1f2f0109
+name = appConfig object = hello.core.AppConfig$$EnhancerBySpringCGLIB$$20acae2c@483b0690
+name = memberService object = hello.core.member.MemberServiceImpl@687e6293
+name = memberRepository object = hello.core.member.MemoryMemberRepository@6870c3c2
+name = orderService object = hello.core.order.OrderServiceImpl@fb0a08c
+name = discountPolicy object = hello.core.discount.RateDiscountPolicy@1faf386c
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

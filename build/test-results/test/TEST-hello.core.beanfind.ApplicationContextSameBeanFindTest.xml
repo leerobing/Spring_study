@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beanfind.ApplicationContextSameBeanFindTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-27T06:53:03" hostname="leehobinui-MacBookPro.local" time="0.005">
+  <properties/>
+  <testcase name="타입으로 조회시 같은 타입이 둘 이상 있으면 이름으로 조회하면 된다." classname="hello.core.beanfind.ApplicationContextSameBeanFindTest" time="0.0"/>
+  <testcase name="타입으로 모두 조회하기" classname="hello.core.beanfind.ApplicationContextSameBeanFindTest" time="0.0"/>
+  <testcase name="타입으로 조회시 같은 타입이 둘 이상 있으면 중복 오류가 발생한다." classname="hello.core.beanfind.ApplicationContextSameBeanFindTest" time="0.001"/>
+  <system-out><![CDATA[key memberRepository1 memberRepository = hello.core.member.MemoryMemberRepository@787508ca
+key memberRepository2 memberRepository = hello.core.member.MemoryMemberRepository@3d24420b
+beansOfType = {memberRepository1=hello.core.member.MemoryMemberRepository@787508ca, memberRepository2=hello.core.member.MemoryMemberRepository@3d24420b}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
