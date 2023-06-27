@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.singleton.StatefulServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-27T06:53:03" hostname="leehobinui-MacBookPro.local" time="0.001">
-  <properties/>
-  <testcase name="싱글톤 객체 상태 변화 테스트" classname="hello.core.singleton.StatefulServiceTest" time="0.001"/>
-  <system-out><![CDATA[name = UserAprice = 10000
-name = UserBprice = 20000
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

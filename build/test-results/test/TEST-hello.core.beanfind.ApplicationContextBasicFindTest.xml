@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.beanfind.ApplicationContextBasicFindTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-27T06:53:03" hostname="leehobinui-MacBookPro.local" time="0.027">
-  <properties/>
-  <testcase name="빈 이름으로 조회 실패시" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.001"/>
-  <testcase name="빈 이름으로 조회" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.02"/>
-  <testcase name="이름없이 타입으로만 조회" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
