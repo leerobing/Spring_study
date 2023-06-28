@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.lifecycle.BeanLifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-28T06:42:35" hostname="leehobinui-MacBookPro.local" time="0.147">
+  <properties/>
+  <testcase name="lifeCycleTest()" classname="hello.core.lifecycle.BeanLifeCycleTest" time="0.147"/>
+  <system-out><![CDATA[15:42:35.410 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f1d2e23
+15:42:35.417 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+15:42:35.459 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+15:42:35.460 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+15:42:35.460 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+15:42:35.461 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+15:42:35.464 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanLifeCycleTest.LifeCycleConfig'
+15:42:35.466 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'networkClient'
+생성자 호출 url: null
+connect : http://hello-Spring.dev
+url: http://hello-Spring.dev, message: 초기화 연결 메세지
+15:42:35.486 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f1d2e23, started on Wed Jun 28 15:42:35 KST 2023
+close :http://hello-Spring.dev
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
