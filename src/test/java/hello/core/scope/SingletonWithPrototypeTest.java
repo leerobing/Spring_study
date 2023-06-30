@@ -2,6 +2,7 @@ package hello.core.scope;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Scope;
 
@@ -34,30 +35,32 @@ public class SingletonWithPrototypeTest {
         SingletonBean clientA = ac.getBean(SingletonBean.class);
         SingletonBean clientB = ac.getBean(SingletonBean.class);
 
-        clientA.logic();
-        System.out.println(clientA.getCount());
+        int countA = clientA.logic();
 
-        clientB.logic();
-        System.out.println(clientB.getCount());
 
-        Assertions.assertThat(clientB.getCount()).isEqualTo(2);
+        int countB = clientB.logic();
+
+
+
+        Assertions.assertThat(countB).isEqualTo(1);
 
 
     }
 
     static class SingletonBean {
 
-        private final PrototypeBean prototypeBean;
-        public SingletonBean(PrototypeBean prototypeBean) {
-            this.prototypeBean = prototypeBean;
-        }
-        public void logic () {
-            prototypeBean.addCount();
-        }
+        private final ObjectProvider<PrototypeBean> prototypeBeanProvider;
 
-        public int getCount() {
+        public SingletonBean(ObjectProvider<PrototypeBean> prototypeBeanProvider) {
+            this.prototypeBeanProvider = prototypeBeanProvider;
+        }
+        public int logic () {
+            PrototypeBean prototypeBean = prototypeBeanProvider.getObject();
+            prototypeBean.addCount();
+
             return prototypeBean.getCount();
         }
+
 
     }
 

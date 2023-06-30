@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.scope.SingletonWithPrototypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-30T02:17:36" hostname="leehobinui-MacBookPro.local" time="0.112">
+<testsuite name="hello.core.scope.SingletonWithPrototypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-30T02:57:46" hostname="leehobinui-MacBookPro.local" time="0.132">
   <properties/>
-  <testcase name="singletonClientUsePrototype()" classname="hello.core.scope.SingletonWithPrototypeTest" time="0.112"/>
-  <system-out><![CDATA[11:17:36.191 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70e38ce1
-11:17:36.196 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-11:17:36.205 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-11:17:36.206 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-11:17:36.206 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-11:17:36.207 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-11:17:36.210 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonWithPrototypeTest.SingletonBean'
-PrototypeBean.inithello.core.scope.SingletonWithPrototypeTest$PrototypeBean@542e560f
-11:17:36.215 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'singletonWithPrototypeTest.SingletonBean' via constructor to bean named 'singletonWithPrototypeTest.PrototypeBean'
-1
-2
+  <testcase name="singletonClientUsePrototype()" classname="hello.core.scope.SingletonWithPrototypeTest" time="0.132"/>
+  <system-out><![CDATA[11:57:46.332 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70e38ce1
+11:57:46.339 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+11:57:46.348 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+11:57:46.349 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+11:57:46.350 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+11:57:46.350 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+11:57:46.354 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonWithPrototypeTest.SingletonBean'
+PrototypeBean.inithello.core.scope.SingletonWithPrototypeTest$PrototypeBean@3cc41abc
+PrototypeBean.inithello.core.scope.SingletonWithPrototypeTest$PrototypeBean@4566d049
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
